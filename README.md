@@ -6,7 +6,7 @@
 
 A dashboard that recognize the human activity based on readings from sensor data.
 
-## Usage and installation
+## 1.installation and runining the code:
 
 1.Create and activate a virtual environment
 
@@ -21,7 +21,7 @@ $source venv/bin/activate
 $pip install -r requirements.txt
 ```
 
-3.If you want to retrain our model
+3.If you want to retrain my model
 ```bash
 $train app.py
 ```
@@ -32,22 +32,23 @@ $train app.py
 $python app.py
 ```
 
-##How o use Dashboard:
+##2.How to use my Dashboard:
 
-the Dashboard view:
+1.the Dashboard view:
+
 ![dashbroad2](Human_Activity_Recognition/Images/DashboardJPG.JPG)
 
-Enter your data :
+2.Enter your data :
 
-1.the length of data must be = 562 like the dataset
+1.2.the length of data must be = 562 like the dataset
 
-2.the data must be seperated by comma ','.
+2.2.the data must be seperated by comma ','.
 
 -Example of data you can Enter => 0.9253,0.3256,.....,0.256,'1' 
 
 ![walking](Human_Activity_Recognition/Images/walking.JPG)
 
 
-##How to use my Dashboard with a gif:
+##How to use my Dashboard by a gif:
 
 ![walking](Human_Activity_Recognition/Images/my-project-gif.gif)
